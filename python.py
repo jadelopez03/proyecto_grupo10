@@ -8,7 +8,7 @@ alumnos = [
 
 for alumno in alumnos:
     if alumno["nota"] >= 5:
-        print(f"El alumno {alumno["nombre"].upper()} está aprobado, , su nota es un {alumno["nota"]}")
+        print(f"El alumno {alumno["nombre"].upper()} está aprobado, su nota es un {alumno["nota"]}")
     else:
         print(f"El alumno {alumno["nombre"].upper()} está suspendido, su nota es un {alumno["nota"]}")
         
