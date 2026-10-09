@@ -3,16 +3,16 @@ alumnos = [
     {"nombre": "Luis", "nota": 4.0},
     {"nombre": "Marta", "nota": 7.0},
     {"nombre": "Pablo", "nota": 3.5},
-    {"nombre": "Sara", "nota": 9.0},s
+    {"nombre": "Sara", "nota": 9.0},
 ]
 
 for alumno in alumnos:
     if alumno["nota"] >= 5:
-        print(f"El alumno {alumno["nombre"].upper()} está aprobado, , su nota es un {alumno["nota"]}")
+        print(f"El alumno {alumno['nombre'].upper()} está aprobado, , su nota es un {alumno['nota']}")
     elif alumnos == 0:
         print("0")
     else:
-        print(f"El alumno {alumno["nombre"].upper()} está suspendido, su nota es un {alumno["nota"]}")
+        print(f"El alumno {alumno['nombre'].upper()} está suspendido, su nota es un {alumno['nota']}")
         
 contador_aprobado = 0
 contador_suspendido = 0
@@ -46,4 +46,4 @@ Devuelve el la suma de notas de los alumnos dividido entre el numero de individu
 
 redondeo_dos =((calcular_media(suma_notas, contador_total)))
 
-print(round(redondeo_dos, 2))
+print(f"La media es: {round(redondeo_dos, 2)}")
