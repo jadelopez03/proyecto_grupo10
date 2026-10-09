@@ -2,4 +2,5 @@
 Integrantes del grupo: Lorenzo Sabbatini, Jorge Oliver y Jade López
 Pull request:
 https://github.com/jadelopez03/proyecto_grupo10/pull/2#issue-5768800377
+https://github.com/jadelopez03/proyecto_grupo10/pull/4#issue-5779402466
 
