@@ -3,14 +3,12 @@ alumnos = [
     {"nombre": "Luis", "nota": 4.0},
     {"nombre": "Marta", "nota": 7.0},
     {"nombre": "Pablo", "nota": 3.5},
-    {"nombre": "Sara", "nota": 9.0},s
+    {"nombre": "Sara", "nota": 9.0},
 ]
 
 for alumno in alumnos:
     if alumno["nota"] >= 5:
         print(f"El alumno {alumno["nombre"].upper()} está aprobado, , su nota es un {alumno["nota"]}")
-    elif alumnos == 0:
-        print("0")
     else:
         print(f"El alumno {alumno["nombre"].upper()} está suspendido, su nota es un {alumno["nota"]}")
         
@@ -36,14 +34,7 @@ for alumno in alumnos:
 
 def calcular_media(alum,total):
     return alum/total
-"""
-Funcion que calcula la media de los alumnos sobre nuestra lista.
 
-Parámetros: alum(nota de los alumnos), total (numero total de alumnos de la clase).
-
-Devuelve el la suma de notas de los alumnos dividido entre el numero de individuos.
-"""
-
-redondeo_dos =((calcular_media(suma_notas, contador_total)))
-
-print(round(redondeo_dos, 2))
+print(round((calcular_media(suma_notas, contador_total))))
+    
+    
